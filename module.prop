@@ -1,6 +1,6 @@
 id=sensitive_props
-name=SafetyNet sensitive props
-version=v3
-versionCode=3
-author=HuskyDG
-description=Reset sensitive properties to safe state and try to bypass Safetynet / Play Integrity
+name=Sensitive Props
+version=v5.1
+versionCode=6
+author=HuskyDG, Rushi Ranpise, westruk 
+description=Please uninstall this module before dirty-flashing/updating the ROM.
