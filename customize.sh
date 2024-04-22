@@ -87,4 +87,6 @@ mv /sdcard/TWRP /sdcard/TTWRP
 mv /vendor/bin/install-recovery.sh /vendor/bin/iinstall-recovery.sh
 mv /system/bin/install-recovery.sh /system/bin/iinstall-recovery.sh
 mv /system/vendor/bin/install-recovery.sh /system/vendor/bin/iinstall-recovery.sh
+mount -o ro /system
+mount -o ro /vendor
 ui_print "Please uninstall this module before dirty-flashing/updating the ROM."
