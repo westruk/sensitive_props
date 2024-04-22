@@ -80,6 +80,7 @@ sh "$MODPATH/service.sh" 2>&1
 # Fix init.rc/ART and Recovery/Magisk detections
 ui_print "Fixing init.rc/ART and Recovery/Magisk detections..."
 mount -o rw /system
+mount -o rw /vendor
 chmod 0750 /system/addon.d
 mv /system/addon.d /system/aaddon.d
 mv /sdcard/TWRP /sdcard/TTWRP
