@@ -61,12 +61,3 @@ done
 # check_resetprop ro.build.date.utc $(date +"%s")
 # check_resetprop ro.build.version.security_patch $(date +2023-%m-%d)
 # check_resetprop ro.vendor.build.security_patch $(date +2023-%m-%d)
-
-resetprop --delete ro.lineage.build.version.plat.rev
-resetprop --delete ro.lineage.build.version.plat.sdk
-resetprop --delete ro.lineage.device
-resetprop --delete ro.crdroid.build.version
-resetprop --delete ro.crdroid.device
-resetprop --delete ro.crdroid.display.version
-resetprop --delete ro.crdroid.version
-resetprop --delete ro.crdroidlegal.url
